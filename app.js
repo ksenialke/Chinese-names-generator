@@ -1,6 +1,5 @@
 const fs = require('fs');
 var content;
-// First I want to read the file
 fs.readFile('syllables.txt', "utf8", function read(err, data) {
     if (err) {
         throw err;
